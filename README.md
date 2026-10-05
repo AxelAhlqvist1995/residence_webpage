@@ -1,12 +1,14 @@
 # Föreningens hemsida
 
-Statisk hemsida för Brf [NAMN] – information till köpare och mäklare.
+Statisk hemsida för Brf Pilen 32 (https://brfpilen32.se) – information till köpare och mäklare.
 Ingen databas, inget CMS, inget att säkerhetsuppdatera.
 
 ## Filer
 
 - `index.html` – hela hemsidan (en sida). All text redigeras här.
 - `dokument/` – PDF:er (årsredovisningar, stadgar, ordningsregler, energideklaration).
+- `bilder/` – foton. `gard-1.jpg` är toppbilden.
+- `CNAME` – domännamnet (brfpilen32.se). Ändra inte.
 
 ## Uppdatera innehåll (ca en gång per år)
 
@@ -26,9 +28,9 @@ Filnamn: små bokstäver, inga mellanslag och inga å/ä/ö.
 Hostas gratis på GitHub Pages (eller Cloudflare Pages) direkt från grenen `main`.
 
 **GitHub Pages:** Settings → Pages → Source: *Deploy from a branch* → `main` / `(root)`.
-Under *Custom domain*, ange föreningens domän och kryssa i *Enforce HTTPS*.
+Under *Custom domain*, ange `brfpilen32.se` och kryssa i *Enforce HTTPS*.
 
-**DNS hos domänregistraren (Loopia):**
+**DNS hos Loopia** (customerzone.loopia.com → brfpilen32.se → DNS-editor):
 
 | Typ   | Namn  | Värde                         |
 |-------|-------|-------------------------------|

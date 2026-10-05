@@ -4,15 +4,21 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Brf Pilen 32</title>
-<meta name="description" content="Information om Bostadsrättsföreningen BRF Pilen 32 för köpare och mäklare.">
+<meta name="description" content="Information om Bostadsrättsföreningen Pilen 32 för köpare och mäklare.">
 <style>
   body { font-family: system-ui, sans-serif; line-height: 1.55; max-width: 44rem; margin: 0 auto; padding: 1rem; color: #222; background: #fff; }
-  h1 { margin-bottom: 0.2rem; }
+  .hero { position: relative; margin: 0 0 1rem; border-radius: 6px; overflow: hidden; }
+  .hero img { display: block; width: 100%; height: clamp(14rem, 45vw, 22rem); object-fit: cover; }
+  .hero div { position: absolute; inset: auto 0 0 0; padding: 2rem 1rem 0.8rem; color: #fff; background: linear-gradient(transparent, rgba(0,0,0,0.65)); }
+  .hero h1 { margin: 0; }
+  .hero p { margin: 0.2rem 0 0; }
   h2 { margin-top: 2.5rem; border-bottom: 1px solid #ddd; padding-bottom: 0.2rem; }
   nav a { margin-right: 0.8rem; white-space: nowrap; }
   table { border-collapse: collapse; width: 100%; }
   th, td { text-align: left; padding: 0.35rem 0.5rem; border-bottom: 1px solid #eee; vertical-align: top; }
   th { width: 40%; font-weight: 600; }
+  .gallery { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; margin-top: 1rem; }
+  .gallery img { width: 100%; height: auto; border-radius: 4px; }
   .note { color: #666; font-size: 0.9rem; }
   footer { margin-top: 3rem; color: #666; font-size: 0.9rem; }
   @media (prefers-color-scheme: dark) {
@@ -26,15 +32,20 @@
 <body>
 
 <header>
-  <h1>Brf [NAMN]</h1>
-  <p>[Gatuadress], [Postnummer Ort] · Org.nr [XXXXXX-XXXX]</p>
+  <div class="hero">
+    <img src="bilder/gard-1.jpg" alt="Föreningens innergård med uteplats och planteringar">
+    <div>
+      <h1>Brf Pilen 32</h1>
+      <p>Klara Norra Kyrkogata 17 och Gamla Brogatan 25, 111 22 Stockholm</p>
+    </div>
+  </div>
   <nav>
     <a href="#om">Om föreningen</a>
     <a href="#ekonomi">Ekonomi</a>
     <a href="#bredband">Bredband &amp; TV</a>
     <a href="#underhall">Underhåll</a>
     <a href="#regler">Regler &amp; praktiskt</a>
-    <a href="#energi">Energideklaration</a>
+    <a href="#energi">Energi</a>
     <a href="#kontakt">Kontakt</a>
   </nav>
 </header>
@@ -47,28 +58,49 @@ Hittar du inte svaret, kontakta styrelsen via e-postadressen under <a href="#kon
 <!-- ============================================================ -->
 <h2 id="om">Om föreningen</h2>
 <table>
-  <tr><th>Antal lägenheter</th><td>[XX]</td></tr>
-  <tr><th>Antal lokaler</th><td>[XX]</td></tr>
-  <tr><th>Byggår</th><td>[ÅÅÅÅ]</td></tr>
-  <tr><th>Äkta / oäkta förening</th><td>[Äkta]</td></tr>
-  <tr><th>Marken</th><td>[Äganderätt / Tomträtt]</td></tr>
-  <tr><th>Förvaltare</th><td>[Ekonomisk förvaltare, t.ex. företagsnamn]</td></tr>
+  <tr><th>Organisationsnummer</th><td>769610-0820</td></tr>
+  <tr><th>Byggnader</th><td>Klara Norra Kyrkogata 17 (byggt 1989)<br>Gamla Brogatan 25 (byggt [ÅÅÅÅ])</td></tr>
+  <tr><th>Föreningen registrerad</th><td>2003</td></tr>
+  <tr><th>Antal bostadsrätter</th><td>20 st</td></tr>
+  <tr><th>Antal hyresrätter</th><td>0 st</td></tr>
+  <tr><th>Boarea bostadsrätter</th><td>1 719 m²</td></tr>
+  <tr><th>Lokaler</th><td>3 lokaler, samtliga uthyrda (två restauranger och en frisör)</td></tr>
+  <tr><th>Garageplatser</th><td>16 st</td></tr>
+  <tr><th>Markägande</th><td>Tomträtt (Stockholms stad)</td></tr>
+  <tr><th>Äkta förening</th><td>Ja</td></tr>
+  <tr><th>Samfällighet</th><td>Medlem i GA:1 med 16 % andel (grind och entré-/garageport)</td></tr>
+  <tr><th>Fastighetsförsäkring</th><td>Stockholms Stads Brandförsäkringskontor, inklusive kollektivt bostadsrättstillägg</td></tr>
+  <tr><th>Ekonomisk förvaltare</th><td>Simpleko</td></tr>
 </table>
+
+<div class="gallery">
+  <img src="bilder/gard-2.jpg" alt="Innergården med sittgrupper" loading="lazy">
+  <img src="bilder/entre-kn17.jpg" alt="Entrén från Klara Norra Kyrkogata" loading="lazy">
+</div>
 
 <!-- ============================================================ -->
 <h2 id="ekonomi">Ekonomi</h2>
 <table>
-  <tr><th>Nuvarande avgiftsnivå</th><td>[XXX] kr/kvm och år</td></tr>
-  <tr><th>Senaste avgiftsändring</th><td>[t.ex. +X % från 1 januari ÅÅÅÅ]</td></tr>
-  <tr><th>Ingår i avgiften</th><td>[Värme, vatten, bredband, TV …]</td></tr>
-  <tr><th>Ingår inte</th><td>[Hushållsel …]</td></tr>
+  <tr><th>Årsavgift</th><td>857 kr/m² och år (2025)</td></tr>
+  <tr><th>Senaste avgiftsändring</th><td>Oförändrad 2025 och 2026</td></tr>
+  <tr><th>Ingår i avgiften</th><td>Värme, vatten, bredband och kabel-TV</td></tr>
+  <tr><th>Ingår inte</th><td>Hushållsel</td></tr>
+</table>
+
+<h3>Nyckeltal enligt årsredovisning 2025</h3>
+<table>
+  <tr><th>Skuldsättning per m² bostadsrättsyta</th><td>9 701 kr</td></tr>
+  <tr><th>Sparande per m² totalyta</th><td>277 kr</td></tr>
+  <tr><th>Räntekänslighet</th><td>11,32 %</td></tr>
+  <tr><th>Soliditet</th><td>61 %</td></tr>
+  <tr><th>Fond för yttre underhåll</th><td>2 865 399 kr</td></tr>
+  <tr><th>Tomträttsavgäld</th><td>1 108 000 kr/år</td></tr>
 </table>
 
 <h3>Årsredovisningar</h3>
 <ul>
   <li><a href="dokument/arsredovisning-2025.pdf">Årsredovisning 2025</a> (PDF)</li>
   <li><a href="dokument/arsredovisning-2024.pdf">Årsredovisning 2024</a> (PDF)</li>
-  <li><a href="dokument/arsredovisning-2023.pdf">Årsredovisning 2023</a> (PDF)</li>
 </ul>
 <p class="note">Uppgifterna avser nuläget och utgör inte något åtagande om framtida avgifter.
 Fullständig information finns i den senaste årsredovisningen.</p>
@@ -77,61 +109,70 @@ Fullständig information finns i den senaste årsredovisningen.</p>
 <h2 id="bredband">Bredband &amp; TV</h2>
 <table>
   <tr><th>Leverantör</th><td>Tele2</td></tr>
-  <tr><th>Bredband</th><td>[Hastighet, t.ex. 250/250 Mbit/s] – ingår i avgiften</td></tr>
-  <tr><th>TV</th><td>[Kanalpaket – länk till kanallista]</td></tr>
-  <tr><th>Router</th><td>[Ingår / tillhör lägenheten och lämnas kvar vid försäljning]</td></tr>
+  <tr><th>Bredband</th><td>Ingår i avgiften. [Hastighet, t.ex. 250/250 Mbit/s]</td></tr>
+  <tr><th>TV</th><td>Kabel-TV ingår i avgiften. [Kanalpaket – länk till kanallista]</td></tr>
+  <tr><th>Router</th><td>Ingår i abonnemanget</td></tr>
 </table>
 
 <!-- ============================================================ -->
 <h2 id="underhall">Underhåll</h2>
+<p>Föreningen har en underhållsplan som upprättades 2024, uppdaterades 2025 och sträcker sig till 2074.</p>
+
 <h3>Genomfört</h3>
 <table>
-  <tr><th>Stammar</th><td>[ÅÅÅÅ – kort beskrivning]</td></tr>
-  <tr><th>Tak</th><td>[ÅÅÅÅ]</td></tr>
-  <tr><th>Fönster</th><td>[ÅÅÅÅ]</td></tr>
-  <tr><th>Fasad</th><td>[ÅÅÅÅ]</td></tr>
-  <tr><th>Övrigt</th><td>[t.ex. tvättstuga, hiss, ventilation]</td></tr>
+  <tr><th>2025</th><td>Ommålning och renovering av tak, relining av en avloppsstam, renovering av utomhustrappa till gemensamhetsanläggning</td></tr>
+  <tr><th>2024</th><td>Renovering av avlopp till restaurang, ny fettavskiljare för restaurangerna, ny armatur i marmorgången</td></tr>
+  <tr><th>2023</th><td>Renovering av avlopp till restaurang</td></tr>
+  <tr><th>2022</th><td>Färdigställd OVK (obligatorisk ventilationskontroll)</td></tr>
+  <tr><th>2019</th><td>Byte av armaturer</td></tr>
+  <tr><th>2018</th><td>Relining av avloppsstammar, stamspolning, tätning av gården</td></tr>
+  <tr><th>2017</th><td>Nya fläktmotorer</td></tr>
+  <tr><th>2016</th><td>Tvättstuga och hissar, LED-belysning, ny port</td></tr>
+  <tr><th>2015</th><td>Renovering av tvättstuga, nya fläktmotorer till ventilation, målning av tak, LED-belysning i trapphus</td></tr>
 </table>
 
-<h3>Planerat enligt underhållsplanen</h3>
+<h3>Planerat 2026</h3>
 <ul>
-  <li>[ÅÅÅÅ – åtgärd]</li>
-  <li>[ÅÅÅÅ – åtgärd]</li>
+  <li>Åtgärda läcka i förråd</li>
+  <li>Planerat underhåll av ventilation</li>
+  <li>Renovering av fönster mot innergården</li>
 </ul>
 <p class="note">Underhållsplanen ses över årligen och tidpunkterna kan ändras.</p>
 
 <!-- ============================================================ -->
 <h2 id="regler">Regler &amp; praktiskt</h2>
 <ul>
-  <li><a href="dokument/stadgar.pdf">Stadgar</a> (PDF)</li>
-  <li><a href="dokument/ordningsregler.pdf">Ordningsregler</a> (PDF)</li>
+  <li><a href="dokument/stadgar.pdf">Stadgar</a> (PDF, registrerade 2024)</li>
 </ul>
 <table>
-  <tr><th>Andrahandsuthyrning</th><td>[Kräver styrelsens godkännande. Ansökan via …]</td></tr>
-  <tr><th>Juridisk person</th><td>[Accepteras / accepteras inte som medlem]</td></tr>
-  <tr><th>Överlåtelseavgift</th><td>[Betalas av köpare/säljare] – [X] % av prisbasbeloppet</td></tr>
-  <tr><th>Pantsättningsavgift</th><td>[Betalas av köparen] – [X] % av prisbasbeloppet</td></tr>
-  <tr><th>Förråd</th><td>[Ett källarförråd per lägenhet]</td></tr>
-  <tr><th>Tvättstuga</th><td>[Bokning via …]</td></tr>
-  <tr><th>Parkering</th><td>[Antal platser, kö, kostnad]</td></tr>
-  <tr><th>Laddstolpar</th><td>[Finns / finns inte]</td></tr>
+  <tr><th>Andrahandsuthyrning</th><td>Tillåten efter godkännande av styrelsen</td></tr>
+  <tr><th>Juridisk person</th><td>Prövas av styrelsen och kan nekas medlemskap (stadgarna § 3)</td></tr>
+  <tr><th>Överlåtelseavgift</th><td>Högst 2,5 % av prisbasbeloppet, betalas av köparen (stadgarna § 9)</td></tr>
+  <tr><th>Pantsättningsavgift</th><td>Högst 1 % av prisbasbeloppet, betalas av pantsättaren (stadgarna § 9)</td></tr>
+  <tr><th>Förråd</th><td>[Ett förråd per lägenhet?]</td></tr>
+  <tr><th>Tvättstuga</th><td>Finns. Bokas på bokningstavlan vid tvättstugan.</td></tr>
+  <tr><th>Garage</th><td>16 platser. Kö tillämpas, men det finns för närvarande lediga platser – kontakta styrelsen.</td></tr>
+  <tr><th>Laddstolpar</th><td>Finns inte</td></tr>
 </table>
 
 <!-- ============================================================ -->
-<h2 id="energi">Energideklaration</h2>
-<p>Energiklass [X], upprättad [ÅÅÅÅ]. <a href="dokument/energideklaration.pdf">Energideklaration</a> (PDF)</p>
+<h2 id="energi">Energi</h2>
+<table>
+  <tr><th>Uppvärmning</th><td>Fjärrvärme (Stockholm Exergi)</td></tr>
+  <tr><th>Energideklaration</th><td>Energiklass [X], upprättad [ÅÅÅÅ]</td></tr>
+</table>
 
 <!-- ============================================================ -->
 <h2 id="kontakt">Kontakt</h2>
 <table>
-  <tr><th>Mäklarfrågor</th><td><a href="mailto:[styrelsen@domän.se]">[styrelsen@domän.se]</a></td></tr>
-  <tr><th>Felanmälan</th><td>[Förvaltare, telefon/webb]</td></tr>
+  <tr><th>Mäklarfrågor</th><td><a href="mailto:32pilenbrf@gmail.com">32pilenbrf@gmail.com</a></td></tr>
+  <tr><th>Felanmälan</th><td>Via e-post till <a href="mailto:32pilenbrf@gmail.com">32pilenbrf@gmail.com</a></td></tr>
 </table>
 
 </main>
 
 <footer>
-  Senast uppdaterad: [ÅÅÅÅ-MM-DD]
+  Senast uppdaterad: 2026-10-05
 </footer>
 
 </body>
